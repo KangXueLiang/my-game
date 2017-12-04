@@ -1,0 +1,33 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  background-color: #eee;
+}
+p {
+  position: absolute;
+  font-size: 40px;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+form {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 50%;
+  margin-top: 60px;
+  transform: translateX(-50%);
+}
+form button {
+  width: 60px;
+  height: 40px;
+  margin: 15px;
+}
+.hide {
+  display: none;
+}
